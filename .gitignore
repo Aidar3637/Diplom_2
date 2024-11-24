@@ -1,0 +1,59 @@
+# Allure-отчёты
+allure-results/
+
+# Python-специфичные файлы
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Лог-файлы
+*.log
+*.csv
+
+# Среда разработки
+.vscode/
+.idea/
+*.iml
+
+# Виртуальные окружения
+env/
+venv/
+.venv/
+
+# Секреты и ключи
+*.env
+*.secrets
+*.key
+
+# Системные файлы
+.DS_Store
+Thumbs.db
+
+# Конфигурационные файлы системы
+*.swp
+*.swo
+*.bak
+*.orig
+
+# Зависимости и пакеты
+*.egg-info/
+.eggs/
+*.egg
+pip-log.txt
+
+# pytest
+.cache/
+pytestdebug.log
+.tox/
+
+# Другие артефакты
+*.log
+*.tmp
+*.log.*
+coverage.xml
+.coverage
+coverage/
+htmlcov/
+
